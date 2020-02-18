@@ -51,8 +51,9 @@ export CMAKE_PREFIX_PATH=/usr/local/Cellar/qt/<version>
 
 To compile, build and execute the program:
 
-Go to the build folder
+From root, create a build folder and go in it
 ```
+mkdir build
 cd build
 ```
 Run cmake
@@ -100,7 +101,9 @@ random plot with 10 Data points - to test the smoothing
 The program can handle a specific data format:
 
 It has to be CSV file with ';' or ',' as separators.
+
 It has to be ASCII encoded.
+
 It must contain 2 columns.
 
 ## Results
